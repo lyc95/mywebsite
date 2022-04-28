@@ -1,0 +1,98 @@
+#menu ul
+{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-color: lightskyblue;
+    width: 100%;
+}
+#menu ul li
+{
+    float: left;
+    width: auto;
+}
+#menu ul li a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+#menu ul li a:hover{
+    background-color: darkblue;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+}
+#logo{
+    text-align: center;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: lightskyblue;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.cart{
+    margin: 30px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+    padding: 5px;
+    background-color: aquamarine;
+    color: brown;
+    font-weight:bold;
+    font-size: x-large;
+}
+tr{
+    border: 1px solid lightblue;
+}
+td{
+    padding: 10px 5px;
+    text-align: left;
+}
+td input{
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+td img{
+    width: 250px;
+    height: 160px;
+
+}
+.summary
+{
+    display: flex;
+    justify-content: flex-end;
+}
+.summary table{
+    margin-top: 50px;
+    border-top: 3px solid brown;
+    width: 100%;
+    max-width: 500px;
+}
+.summary tr{
+    border: 0px;
+}
+.checkout{
+    background-color: brown;
+    color: azure;
+    height: 50px;
+    text-align: right;
+}
+th:last-child{
+    text-align: right;
+}
+td:last-child{
+    text-align: right;
+}
